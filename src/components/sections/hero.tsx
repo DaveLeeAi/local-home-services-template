@@ -7,26 +7,19 @@ import { MapPin, Star } from "lucide-react";
 import { HeroBackgroundSlider } from "./hero-slider";
 import { useState, useEffect } from "react";
 
+import { getServiceMeta, serviceConfig } from "@/config/service";
+const service = getServiceMeta(serviceConfig.type);
+
 const HERO_CONTENT = [
     {
-        topLine: "Build the Perfect Deck",
-        bottomLine: "For Your Home",
-        subheadline: "Connect with licensed local builders for custom installations."
+        topLine: `Premier ${service.label}`,
+        bottomLine: "in Metro Atlanta",
+        subheadline: `Connect with licensed local professionals for custom ${service.label.toLowerCase()} projects.`
     },
     {
-        topLine: "Repair Your Deck",
-        bottomLine: "Before It’s Too Late",
-        subheadline: "Fast, reliable fixes for damaged or aging decks."
-    },
-    {
-        topLine: "Transform Your Old Deck",
-        bottomLine: "Like New Again",
-        subheadline: "Bring your weathered deck back to life with expert care."
-    },
-    {
-        topLine: "Compare Top Builders",
-        bottomLine: "Near You",
-        subheadline: "Free estimates from verified Metro Atlanta professionals."
+        topLine: "Professional Service",
+        bottomLine: "You Can Trust",
+        subheadline: `Fast, reliable, and high-quality ${service.label.toLowerCase()} solutions.`
     }
 ];
 

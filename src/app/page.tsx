@@ -52,7 +52,7 @@ export default function Home() {
 
         <FAQ />
 
-        <ServiceArea />
+
 
         <Reviews />
       </main>
