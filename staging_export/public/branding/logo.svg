@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150">
+  <!-- Symbol: Peach with Deck Planks -->
+  <g transform="translate(20, 20)">
+    <!-- Leaf -->
+    <path d="M60 10 Q80 -10 100 20 Q80 50 60 10" fill="#1B4D3E" />
+    
+    <!-- Peach Body Background -->
+    <path d="M50 30 C20 30 10 60 20 80 C30 100 50 110 70 105 C90 110 110 100 120 80 C130 60 120 30 90 30 Q70 40 50 30" fill="#B87333" stroke="#1B4D3E" stroke-width="2"/>
+    
+    <!-- Deck Planks (Clipping Mask or stylized lines) -->
+    <!-- Horizontal lines to simulate wood planks inside the peach -->
+    <path d="M30 50 L110 50" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+    <path d="M25 65 L115 65" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+    <path d="M25 80 L115 80" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+    <path d="M35 95 L105 95" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <!-- Text -->
+  <text x="140" y="80" font-family="Arial, sans-serif" font-weight="bold" font-size="50" fill="#1B4D3E">Peachtree</text>
+  <text x="142" y="110" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#B87333" letter-spacing="2">OUTDOOR LIVING</text>
+</svg>

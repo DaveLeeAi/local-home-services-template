@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Leaf -->
+  <path d="M50 10 Q70 -10 90 20 Q70 50 50 10" fill="#1B4D3E" />
+  
+  <!-- Peach Body -->
+  <path d="M40 30 C10 30 0 60 10 80 C20 100 40 110 60 105 C80 110 100 100 110 80 C120 60 110 30 80 30 Q60 40 40 30" transform="translate(-10, -10) scale(0.9)" fill="#B87333" />
+  
+  <!-- Deck Lines -->
+  <path d="M20 50 L80 50" stroke="#FFFFFF" stroke-width="4" opacity="0.5"/>
+  <path d="M15 65 L85 65" stroke="#FFFFFF" stroke-width="4" opacity="0.5"/>
+  <path d="M20 80 L80 80" stroke="#FFFFFF" stroke-width="4" opacity="0.5"/>
+</svg>
